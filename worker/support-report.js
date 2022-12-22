@@ -1,0 +1,183 @@
+const { parentPort, workerData } = require("worker_threads");
+
+const iv = require("implied-volatility");
+
+const configs = require("./../modules/SupportReportModule/config");
+const supportReportService = require("./../database/SupportReportService");
+
+console.log("in woker thread ", workerData.cwList);
+
+const globalHSXList = workerData.hsxList;
+const vn30List = workerData.vn30List;
+
+function getParamsForBs(snapshotOfCw) {
+    const maturityDate = snapshotOfCw.maturity_date;
+    if (!maturityDate) {
+        return false; // not cw
+    }
+    let ss = maturityDate.split("/");
+
+    const lastDay = new Date(ss[2], ss[1] - 1, ss[0]);
+
+    const dateNow = new Date();
+    dateNow.setHours(0, 0, 0, 0);
+
+    difference = Math.abs(lastDay - dateNow) / (1000 * 3600 * 24);
+    // service.globalHSXList
+    const foundSymbol = vn30List.find(
+        (item) => item.symbol == snapshotOfCw.underlying_symbol
+    );
+    const ratio = snapshotOfCw.exercise_ratio.split(":");
+    let rr = 0;
+    if (ratio[0]) {
+        rr = parseFloat(ratio[0]);
+    }
+
+    // get r of this symbol from db
+    const configR = configs.R;
+    return {
+        sForIv: foundSymbol.prior * 1000, // snapshotOfCw.underlying_price,
+        sForPs: foundSymbol.mp != 0 ? foundSymbol.mp : foundSymbol.prior,
+        k: snapshotOfCw.exercise_price * 1000,
+        t: difference,
+        r: configR, // r = 0.03 - 0.08 --> cần lấy từ config
+        n: rr,
+        expectedCost: snapshotOfCw.prior * 1000
+    };
+}
+
+async function storeIv() {
+    const refDate = new Date();
+    const todayTime = new Date(
+        refDate.getFullYear(),
+        refDate.getMonth(),
+        refDate.getDate(),
+        +0,
+        +0,
+        +0
+    ).getTime();
+    for (const cw of configs.CW_LIST) {
+        const foundCw = globalHSXList.find((item) => item.symbol == cw);
+        if (!foundCw) {
+            return false;
+        }
+        const { expectedCost, s, k, t, r, sForIv, n } = getParamsForBs(foundCw);
+
+        const iv = calculateIv(expectedCost * n, sForIv, k, t / 365, r);
+        // save to db
+        await supportReportService.addSymbolIv(
+            cw,
+            expectedCost,
+            sForIv,
+            k,
+            r,
+            t,
+            iv,
+            todayTime
+        );
+    }
+}
+
+function calculateIv(
+    expectedCost,
+    s,
+    k,
+    t,
+    r,
+    callPut = "call"
+    // estimate = 0.1
+) {
+    const impliedVol = iv.getImpliedVolatility(
+        expectedCost,
+        s,
+        k,
+        t,
+        r,
+        callPut
+    );
+    if (impliedVol == null) {
+        console.log("impliedVol= ", impliedVol);
+    }
+    return impliedVol;
+}
+
+function updateShareList(symbol, properties) {
+    try {
+        if (vn30List.length > 0) {
+            let index = vn30List.findIndex(
+                (element) => element.symbol == symbol
+            );
+            if (index >= 0) {
+                const parsedData = { ...JSON.parse(properties) };
+                for (const property in parsedData) {
+                    // console.log(`${property}: ${parsedData[property]}`);
+                    if (`${parsedData[property]}` != "") {
+                        vn30List[index][property] = parsedData[property];
+                        // delete parsedData[property];
+                    }
+                }
+                return true;
+            }
+            console.log("khong tim thay ma chung khoan????uu");
+            return false;
+        } else {
+            console.log("Danh sách chứng khoan chưa được khởi tạo xong!!");
+            return false;
+        }
+    } catch (e) {
+        console.log("error = ", e);
+    }
+}
+
+function updateCwList(symbol, properties) {
+    if (globalHSXList.length > 0) {
+        let index = globalHSXList.findIndex(
+            (element) => element.symbol == symbol
+        );
+        if (index >= 0) {
+            const parsedData = { ...JSON.parse(properties) };
+            for (const property in parsedData) {
+                // console.log(`${property}: ${parsedData[property]}`);
+                if (`${parsedData[property]}` != "") {
+                    globalHSXList[index][property] = parsedData[property];
+                    // delete parsedData[property];
+                }
+            }
+            return true;
+        }
+        console.log("khong tim thay ma chung quyen????");
+        return false;
+    } else {
+        console.log("Danh sách chứng quyền chưa được khởi tạo xong!-!");
+        return false;
+    }
+}
+
+// Listen for a message from worker
+parentPort.on("message", async (result) => {
+    console.log(result);
+    try {
+        const { orderType, properties, symbol } = result;
+        if (orderType === "PROCESS_CW_IV") {
+            console.log("helllo");
+            storeIv();
+        } else if (orderType === "UPDATE_CW") {
+            console.log("update cw list in worker thread");
+            // update cw list
+            updateCwList(symbol, properties);
+        } else if (orderType === "UPDATE_VN30_LIST") {
+            console.log("update VN30 list in worker thread");
+            // update VN30 list
+            updateShareList(symbol, properties);
+        }
+    } catch (e) {
+        console.log(e);
+    }
+});
+
+parentPort.on("error", (error) => {
+    console.log(error);
+});
+parentPort.on("exit", (exitCode) => {
+    console.log(exitCode);
+});

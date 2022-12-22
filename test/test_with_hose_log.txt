@@ -1,0 +1,1126 @@
+Process exited with code 1
+C:\Program Files\nodejs\node.exe .\index.js
+start socket client
+Example app listening at http://:::8888
+(node:1152) [DEP0123] DeprecationWarning: Setting the TLS ServerName to an IP address is not permitted by RFC 6066. This will be ignored in a future version.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+mongodb connect ok
+mssql connect OK
+signalR starting ...
+signalR connected
+socket client connected!
+cKnBhZiLd6AJoQkxAAAP
+SignalR client connected.
+{getMarketInfo: '{"id":"1","symbol":"HSXMARKET","state":"O…t":0,"unknow_count":0,"indexes_count":10}'}
+this.inActiveTime =  false
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+SignalR server return EMPTY data!
+SignalR server return EMPTY data!
+[16:6:16.528] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922000644","ACCTNO":"8000080922000644","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"ADMIN","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CMWG2203","QUOTEQTTY":"0","QUOTEPRICE":"1","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy lệnh chưa gửi vào sàn","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"1"}}
+[16:6:16.531] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922000644","ACCTNO":"8000080922000644","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"ADMIN","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CMWG2203","QUOTEQTTY":"0","QUOTEPRICE":"1","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy lệnh chưa gửi vào sàn","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"1"}}
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:15:10 GMT+0700 (Indochina Time)
+[16:15:11.63] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001047","ACCTNO":"8000080922001047","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:15:11.66] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001047","ACCTNO":"8000080922001047","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+place order =  Thu Sep 08 2022 16:15:25 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:15:25 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b2ad6241ae662fb8f4e2
+[16:15:26.124] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013272980","ACCTNO":"8000080922001089","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"8","ORSTATUS":"Đang gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+Come to Waiting to send status :  8000080922001089
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+[16:15:28.658] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013272980","ACCTNO":"8000080922001089","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:15:28.665] 8000080922001089
+>>> Add order to DB:  8000080922001089
+START timer to cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:15:40 GMT+0700 (Indochina Time)
+[16:15:41.413] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001089","ACCTNO":"8000080922001089","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:15:41.441] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001089","ACCTNO":"8000080922001089","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:15:41.443] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001089","ACCTNO":"8000080922001089","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+place order =  Thu Sep 08 2022 16:15:55 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:15:55 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b2cb6241ae662fb8f605
+[16:15:56.209] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013272997","ACCTNO":"8000080922001099","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:15:56.214] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013272997","ACCTNO":"8000080922001099","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:15:56.219] 8000080922001099
+[16:15:56.250] 8000080922001099
+>>> Add order to DB:  8000080922001099
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001099
+START timer to cancel order command!
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+client disconnect!
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:16:07 GMT+0700 (Indochina Time)
+[16:16:7.530] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001099","ACCTNO":"8000080922001099","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:16:7.533] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001099","ACCTNO":"8000080922001099","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:16:7.535] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001099","ACCTNO":"8000080922001099","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+client disconnect!
+client disconnect!
+place order =  Thu Sep 08 2022 16:16:22 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:16:22 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b2e66241ae662fb8f849
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+[16:16:23.341] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273006","ACCTNO":"8000080922001104","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:16:23.344] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273006","ACCTNO":"8000080922001104","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:16:23.347] 8000080922001104
+[16:16:23.372] 8000080922001104
+>>> Add order to DB:  8000080922001104
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001104
+START timer to cancel order command!
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:16:34 GMT+0700 (Indochina Time)
+[16:16:36.74] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001104","ACCTNO":"8000080922001104","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:16:36.80] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001104","ACCTNO":"8000080922001104","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:16:36.82] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001104","ACCTNO":"8000080922001104","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+place order =  Thu Sep 08 2022 16:16:49 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:16:49 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b3016241ae662fb8f9ad
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:16:49 GMT+0700 (Indochina Time)
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+clear timer  Thu Sep 08 2022 16:16:50 GMT+0700 (Indochina Time)
+(0) []
+Reset list case of that cw!
+thay doi nay khong can dat lenh  CFPT2202
+[16:16:51.126] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273072","ACCTNO":"8000080922001165","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:16:51.139] 8000080922001165
+[16:16:51.161] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273072","ACCTNO":"8000080922001165","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+>>> Add order to DB:  8000080922001165
+START timer to cancel order command!
+[16:16:51.174] 8000080922001165
+Duplicate orderId ^__^, wtf socket?
+START timer to cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+[16:17:1.912] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001165","ACCTNO":"8000080922001165","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:17:1.917] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001165","ACCTNO":"8000080922001165","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:17:1.919] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001165","ACCTNO":"8000080922001165","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:17:02 GMT+0700 (Indochina Time)
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+place order =  Thu Sep 08 2022 16:17:17 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:17:17 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b31d6241ae662fb8fad7
+[16:17:18.640] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273122","ACCTNO":"8000080922001211","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:17:18.647] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273122","ACCTNO":"8000080922001211","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:17:18.652] 8000080922001211
+[16:17:18.676] 8000080922001211
+>>> Add order to DB:  8000080922001211
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001211
+START timer to cancel order command!
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:17:29 GMT+0700 (Indochina Time)
+[16:17:29.646] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001211","ACCTNO":"8000080922001211","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:17:29.676] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001211","ACCTNO":"8000080922001211","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:17:29.678] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001211","ACCTNO":"8000080922001211","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+place order =  Thu Sep 08 2022 16:17:44 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:17:44 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b3386241ae662fb8fbfd
+[16:17:45.288] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273193","ACCTNO":"8000080922001276","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"8","ORSTATUS":"Đang gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+Come to Waiting to send status :  8000080922001276
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+[16:17:46.2] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273193","ACCTNO":"8000080922001276","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:17:46.14] 8000080922001276
+>>> Add order to DB:  8000080922001276
+START timer to cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+[16:17:57.104] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001276","ACCTNO":"8000080922001276","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:17:57.109] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001276","ACCTNO":"8000080922001276","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:17:57.112] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001276","ACCTNO":"8000080922001276","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:17:57 GMT+0700 (Indochina Time)
+place order =  Thu Sep 08 2022 16:18:12 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:18:12 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b3546241ae662fb8fd20
+[16:18:13.206] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273268","ACCTNO":"8000080922001346","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"8","ORSTATUS":"Chờ gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+Come to Waiting to send status :  8000080922001346
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+[16:18:14.202] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273268","ACCTNO":"8000080922001346","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:18:14.205] 8000080922001346
+>>> Add order to DB:  8000080922001346
+START timer to cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+[16:18:24.439] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001346","ACCTNO":"8000080922001346","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"C","ORSTATUS":"Đang hủy","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:18:25 GMT+0700 (Indochina Time)
+[16:18:25.436] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001346","ACCTNO":"8000080922001346","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:18:25.438] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001346","ACCTNO":"8000080922001346","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+place order =  Thu Sep 08 2022 16:18:40 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:18:40 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b3706241ae662fb8fecb
+[16:18:41.205] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273345","ACCTNO":"8000080922001409","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"8","ORSTATUS":"Chờ gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+Come to Waiting to send status :  8000080922001409
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+[16:18:42.266] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273345","ACCTNO":"8000080922001409","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:18:42.412] 8000080922001409
+>>> Add order to DB:  8000080922001409
+START timer to cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+[16:18:53.202] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001409","ACCTNO":"8000080922001409","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"C","ORSTATUS":"Đang hủy","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:18:54 GMT+0700 (Indochina Time)
+[16:18:54.199] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001409","ACCTNO":"8000080922001409","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:18:54.202] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001409","ACCTNO":"8000080922001409","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+clear timer  Thu Sep 08 2022 16:19:00 GMT+0700 (Indochina Time)
+(0) []
+Reset list case of that cw!
+thay doi nay khong can dat lenh  CFPT2202
+[16:19:0.308] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001463","ACCTNO":"8000080922001463","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.2","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"500000","PRICETYPE":"LO","PRICE":"30.2"}}
+[16:19:0.310] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273401","ACCTNO":"8000080922001464","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.2","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"150000","PRICETYPE":"LO","PRICE":"30.2"}}
+[16:19:0.312] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001463","ACCTNO":"8000080922001463","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.2","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"500000","PRICETYPE":"LO","PRICE":"30.2"}}
+[16:19:0.314] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273401","ACCTNO":"8000080922001464","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.2","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"150000","PRICETYPE":"LO","PRICE":"30.2"}}
+[16:19:0.354] 8000080922001463
+[16:19:0.381] 8000080922001464
+[16:19:0.408] 8000080922001463
+[16:19:0.444] 8000080922001464
+>>> Add order to DB:  8000080922001463
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001464
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001463
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001464
+START timer to cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+[16:19:11.205] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001463","ACCTNO":"8000080922001463","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.2","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.2"}}
+[16:19:11.210] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001464","ACCTNO":"8000080922001464","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.2","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.2"}}
+[16:19:11.214] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001463","ACCTNO":"8000080922001463","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.2","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.2"}}
+[16:19:11.308] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001464","ACCTNO":"8000080922001464","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.2","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.2"}}
+[16:19:11.311] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001463","ACCTNO":"8000080922001463","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.2","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.2"}}
+[16:19:11.313] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001464","ACCTNO":"8000080922001464","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.2","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.2"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:19:11 GMT+0700 (Indochina Time)
+place order =  Thu Sep 08 2022 16:19:26 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:19:26 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b39e6241ae662fb901ac
+[16:19:27.214] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273449","ACCTNO":"8000080922001505","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"8","ORSTATUS":"Đang gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+Come to Waiting to send status :  8000080922001505
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+[16:19:28.208] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273449","ACCTNO":"8000080922001505","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:19:28.213] 8000080922001505
+>>> Add order to DB:  8000080922001505
+START timer to cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+[16:19:39.201] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001505","ACCTNO":"8000080922001505","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:19:39.203] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001505","ACCTNO":"8000080922001505","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:19:39.205] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001505","ACCTNO":"8000080922001505","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:19:39 GMT+0700 (Indochina Time)
+[16:19:46.365] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273465","ACCTNO":"8000080922001518","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"250000","PRICETYPE":"LO","PRICE":"31.16"}}
+[16:19:46.368] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273465","ACCTNO":"8000080922001518","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"250000","PRICETYPE":"LO","PRICE":"31.16"}}
+[16:19:46.372] 8000080922001518
+[16:19:46.407] 8000080922001518
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+>>> Add order to DB:  8000080922001518
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001518
+START timer to cancel order command!
+place order =  Thu Sep 08 2022 16:19:54 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:19:54 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b3ba6241ae662fb90361
+[16:19:55.209] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273476","ACCTNO":"8000080922001526","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.54","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"30.54"}}
+[16:19:55.214] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273476","ACCTNO":"8000080922001526","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.54","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"30.54"}}
+[16:19:55.219] 8000080922001526
+[16:19:55.257] 8000080922001526
+>>> Add order to DB:  8000080922001526
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001526
+START timer to cancel order command!
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+[16:19:57.203] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001518","ACCTNO":"8000080922001518","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"C","ORSTATUS":"Đang hủy","REMAINQTTY":"250000","PRICETYPE":"LO","PRICE":"31.16"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:19:57 GMT+0700 (Indochina Time)
+[16:19:58.205] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001518","ACCTNO":"8000080922001518","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"31.16"}}
+[16:19:58.207] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001518","ACCTNO":"8000080922001518","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"31.16"}}
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+[16:20:6.414] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001526","ACCTNO":"8000080922001526","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.54","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.54"}}
+[16:20:6.417] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001526","ACCTNO":"8000080922001526","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.54","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.54"}}
+[16:20:6.419] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001526","ACCTNO":"8000080922001526","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.54","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.54"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+place order =  Thu Sep 08 2022 16:20:12 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:20:12 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b3cc6241ae662fb905a2
+[16:20:13.211] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273502","ACCTNO":"8000080922001549","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"8","ORSTATUS":"Chờ gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+Come to Waiting to send status :  8000080922001549
+[16:20:14.204] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273502","ACCTNO":"8000080922001549","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:20:14.213] 8000080922001549
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+>>> Add order to DB:  8000080922001549
+START timer to cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+[16:20:25.221] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001549","ACCTNO":"8000080922001549","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:20:25.223] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001549","ACCTNO":"8000080922001549","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:20:25.225] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001549","ACCTNO":"8000080922001549","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:20:25 GMT+0700 (Indochina Time)
+[16:20:36.205] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001560","ACCTNO":"8000080922001560","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"8","ORSTATUS":"Chờ gửi","REMAINQTTY":"500000","PRICETYPE":"LO","PRICE":"31.16"}}
+[16:20:36.209] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273518","ACCTNO":"8000080922001561","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"8","ORSTATUS":"Chờ gửi","REMAINQTTY":"140000","PRICETYPE":"LO","PRICE":"31.16"}}
+Come to Waiting to send status :  8000080922001560
+Come to Waiting to send status :  8000080922001561
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+[16:20:37.213] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001560","ACCTNO":"8000080922001560","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"500000","PRICETYPE":"LO","PRICE":"31.16"}}
+[16:20:37.217] 8000080922001560
+[16:20:37.250] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273518","ACCTNO":"8000080922001561","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"140000","PRICETYPE":"LO","PRICE":"31.16"}}
+>>> Add order to DB:  8000080922001560
+START timer to cancel order command!
+[16:20:37.255] 8000080922001561
+>>> Add order to DB:  8000080922001561
+START timer to cancel order command!
+place order =  Thu Sep 08 2022 16:20:40 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:20:40 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b3e86241ae662fb9075c
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+[16:20:42.336] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273524","ACCTNO":"8000080922001567","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.54","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"30.54"}}
+[16:20:42.339] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273524","ACCTNO":"8000080922001567","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.54","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"30.54"}}
+[16:20:42.344] 8000080922001567
+[16:20:42.380] 8000080922001567
+>>> Add order to DB:  8000080922001567
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001567
+START timer to cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+[16:20:48.205] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001560","ACCTNO":"8000080922001560","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"31.16"}}
+[16:20:48.214] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001561","ACCTNO":"8000080922001561","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"31.16"}}
+[16:20:48.300] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001560","ACCTNO":"8000080922001560","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"31.16"}}
+[16:20:48.302] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001560","ACCTNO":"8000080922001560","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"31.16"}}
+[16:20:48.304] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001561","ACCTNO":"8000080922001561","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"31.16"}}
+[16:20:48.306] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001561","ACCTNO":"8000080922001561","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"31.16","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"31.16"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:20:48 GMT+0700 (Indochina Time)
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+[16:20:53.205] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001567","ACCTNO":"8000080922001567","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.54","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.54"}}
+[16:20:53.208] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001567","ACCTNO":"8000080922001567","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.54","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.54"}}
+[16:20:53.210] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001567","ACCTNO":"8000080922001567","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.54","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.54"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+place order =  Thu Sep 08 2022 16:21:03 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:21:03 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b3ff6241ae662fb9091e
+[16:21:4.203] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273551","ACCTNO":"8000080922001589","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"8","ORSTATUS":"Chờ gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+Come to Waiting to send status :  8000080922001589
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+[16:21:5.202] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273551","ACCTNO":"8000080922001589","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:21:5.209] 8000080922001589
+>>> Add order to DB:  8000080922001589
+START timer to cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+[16:21:16.217] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001589","ACCTNO":"8000080922001589","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:21:16.223] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001589","ACCTNO":"8000080922001589","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:21:16.225] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001589","ACCTNO":"8000080922001589","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:21:17 GMT+0700 (Indochina Time)
+place order =  Thu Sep 08 2022 16:21:32 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:21:32 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b41c6241ae662fb90a41
+[16:21:33.204] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273578","ACCTNO":"8000080922001613","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:21:33.207] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273578","ACCTNO":"8000080922001613","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:21:33.212] 8000080922001613
+[16:21:33.251] 8000080922001613
+>>> Add order to DB:  8000080922001613
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001613
+START timer to cancel order command!
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+[16:21:44.330] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001613","ACCTNO":"8000080922001613","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:21:44.333] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001613","ACCTNO":"8000080922001613","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:21:44.335] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001613","ACCTNO":"8000080922001613","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:21:44 GMT+0700 (Indochina Time)
+place order =  Thu Sep 08 2022 16:21:59 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:21:59 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b4376241ae662fb90b67
+[16:22:0.438] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273598","ACCTNO":"8000080922001633","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:22:0.441] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273598","ACCTNO":"8000080922001633","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:22:0.446] 8000080922001633
+[16:22:0.484] 8000080922001633
+>>> Add order to DB:  8000080922001633
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001633
+START timer to cancel order command!
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+[16:22:11.14] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001633","ACCTNO":"8000080922001633","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"C","ORSTATUS":"Đang hủy","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:22:11 GMT+0700 (Indochina Time)
+[16:22:11.998] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001633","ACCTNO":"8000080922001633","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:22:12.44] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001633","ACCTNO":"8000080922001633","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+place order =  Thu Sep 08 2022 16:22:26 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:22:26 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b4526241ae662fb910cd
+[16:22:27.243] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273612","ACCTNO":"8000080922001645","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"8","ORSTATUS":"Chờ gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+Come to Waiting to send status :  8000080922001645
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+[16:22:41.725] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273612","ACCTNO":"8000080922001645","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:22:41.729] 8000080922001645
+>>> Add order to DB:  8000080922001645
+START timer to cancel order command!
+client disconnect!
+fromDate, toDate, code, order  2022-08-08 2022-09-08 undefined undefined undefined
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:22:52 GMT+0700 (Indochina Time)
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+fromDate, toDate, code, order  2022-08-08 2022-09-08 undefined undefined undefined
+place order =  Thu Sep 08 2022 16:23:07 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:23:07 GMT+0700 (Indochina Time)
+fromDate, toDate, code, order  2022-08-08 2022-09-08 undefined undefined undefined
+{result: {…}}
+notifyID =  6319b47b6241ae662fb91163
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+client disconnect!
+client disconnect!
+client disconnect!
+[16:31:51.951] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001645","ACCTNO":"8000080922001645","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:31:51.953] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001645","ACCTNO":"8000080922001645","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:31:51.955] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001645","ACCTNO":"8000080922001645","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:31:51.958] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273624","ACCTNO":"8000080922001653","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:31:51.960] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273624","ACCTNO":"8000080922001653","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:31:52.53] 8000080922001653
+[16:31:52.94] 8000080922001653
+[16:31:52.120] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001668","ACCTNO":"8000080922001668","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.02","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"500000","PRICETYPE":"LO","PRICE":"30.02"}}
+[16:31:52.122] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273642","ACCTNO":"8000080922001669","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.02","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"180000","PRICETYPE":"LO","PRICE":"30.02"}}
+[16:31:52.125] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001668","ACCTNO":"8000080922001668","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.02","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"500000","PRICETYPE":"LO","PRICE":"30.02"}}
+[16:31:52.127] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273642","ACCTNO":"8000080922001669","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.02","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"180000","PRICETYPE":"LO","PRICE":"30.02"}}
+[16:31:52.130] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273650","ACCTNO":"8000080922001673","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"28.6","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"365000","PRICETYPE":"LO","PRICE":"28.6"}}
+[16:31:52.132] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273650","ACCTNO":"8000080922001673","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"28.6","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"365000","PRICETYPE":"LO","PRICE":"28.6"}}
+[16:31:52.134] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273653","ACCTNO":"8000080922001675","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.08","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"365000","PRICETYPE":"LO","PRICE":"30.08"}}
+[16:31:52.137] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273653","ACCTNO":"8000080922001675","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.08","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"365000","PRICETYPE":"LO","PRICE":"30.08"}}
+>>> Add order to DB:  8000080922001653
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001653
+START timer to cancel order command!
+[16:31:52.180] 8000080922001668
+[16:31:52.209] 8000080922001669
+[16:31:52.236] 8000080922001668
+[16:31:52.262] 8000080922001669
+[16:31:52.292] 8000080922001673
+[16:31:52.319] 8000080922001673
+[16:31:52.346] 8000080922001675
+[16:31:52.375] 8000080922001675
+>>> Add order to DB:  8000080922001668
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001669
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001668
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001669
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001673
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001673
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001675
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001675
+START timer to cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+Sent cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:32:03 GMT+0700 (Indochina Time)
+place order =  Thu Sep 08 2022 16:32:18 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:32:18 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b6a26241ae662fb915f1
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+client disconnect!
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:33:07 GMT+0700 (Indochina Time)
+place order =  Thu Sep 08 2022 16:33:23 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:33:23 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b6e36241ae662fb9163e
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+[16:33:43.388] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001653","ACCTNO":"8000080922001653","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:33:43.398] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001653","ACCTNO":"8000080922001653","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:33:43.405] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001653","ACCTNO":"8000080922001653","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:33:43.410] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001675","ACCTNO":"8000080922001675","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.08","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.08"}}
+[16:33:43.468] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001669","ACCTNO":"8000080922001669","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.02","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.02"}}
+[16:33:43.472] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001668","ACCTNO":"8000080922001668","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.02","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.02"}}
+[16:33:43.474] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001673","ACCTNO":"8000080922001673","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"28.6","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"28.6"}}
+[16:33:43.477] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001675","ACCTNO":"8000080922001675","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.08","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.08"}}
+[16:33:43.480] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001675","ACCTNO":"8000080922001675","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.08","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.08"}}
+[16:33:43.482] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001673","ACCTNO":"8000080922001673","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"28.6","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"28.6"}}
+[16:33:43.485] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001673","ACCTNO":"8000080922001673","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"28.6","EXECTYPE":"NB","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"28.6"}}
+[16:33:43.487] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001668","ACCTNO":"8000080922001668","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.02","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.02"}}
+[16:33:43.489] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001668","ACCTNO":"8000080922001668","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.02","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.02"}}
+[16:33:43.491] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001669","ACCTNO":"8000080922001669","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.02","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.02"}}
+[16:33:43.494] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001669","ACCTNO":"8000080922001669","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"2082","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"30.02","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"30.02"}}
+[16:33:43.496] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273662","ACCTNO":"8000080922001684","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"300000","ORSTATUSVALUE":"12","ORSTATUS":"Khớp hết","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:33:43.499] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273662","ACCTNO":"8000080922001684","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"300000","ORSTATUSVALUE":"12","ORSTATUS":"Khớp hết","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:33:43.501] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273662","ACCTNO":"8000080922001684","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"300000","ORSTATUSVALUE":"12","ORSTATUS":"Khớp hết","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:33:43.504] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273667","ACCTNO":"8000080922001688","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:33:43.570] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273667","ACCTNO":"8000080922001688","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:33:44.1] 8000080922001688
+[16:33:44.51] 8000080922001688
+>>> Add order to DB:  8000080922001688
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001688
+START timer to cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:33:55 GMT+0700 (Indochina Time)
+[16:33:56.53] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001688","ACCTNO":"8000080922001688","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:33:56.55] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001688","ACCTNO":"8000080922001688","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:33:56.88] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001688","ACCTNO":"8000080922001688","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+place order =  Thu Sep 08 2022 16:34:10 GMT+0700 (Indochina Time) {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …}
+time order =  Thu Sep 08 2022 16:34:10 GMT+0700 (Indochina Time)
+{result: {…}}
+notifyID =  6319b7126241ae662fb9179a
+[16:34:10.984] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273672","ACCTNO":"8000080922001692","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:34:10.987] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"08/09/20220013273672","ACCTNO":"8000080922001692","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"2","ORSTATUS":"Đã gửi","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:34:10.990] 8000080922001692
+[16:34:11.19] 8000080922001692
+>>> Add order to DB:  8000080922001692
+START timer to cancel order command!
+>>> Add order to DB:  8000080922001692
+START timer to cancel order command!
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+thay doi nay khong can dat lenh  CFPT2202
+Sent cancel order command!
+Sent cancel order command!
+cancel order result =  {status: 'OK', data: {…}}
+cancel order result =  {status: 'OK', data: {…}}
+[16:34:21.248] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001692","ACCTNO":"8000080922001692","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"C","ORSTATUS":"Đang hủy","REMAINQTTY":"300000","PRICETYPE":"LO","PRICE":"29.58"}}
+this.inActiveTime =  true
+shareCondition =  false
+'2022-10-10'
+this.isInFinalOf14Day(snapshotOfCw) =  false
+isPriceOfSecuritiesLessThan10VND(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualCeiling(snapshotOfCw) =  false
+isPriceOfSecuritiesEqualFloor(snapshotOfCw) =  false
+'2022-10-10'
+start timer  {id: 3962, symbol: 'CFPT2202', name: '', name_en: '', type: 'CoveredWarrant', …} Thu Sep 08 2022 16:34:22 GMT+0700 (Indochina Time)
+[16:34:22.238] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001692","ACCTNO":"8000080922001692","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+[16:34:22.240] 1. process account data {"ACC":"0001000004","DT":{"MSGTYPE":"R","EVENTTYPE":"OD","AUTOID":"8000080922001692","ACCTNO":"8000080922001692","CUSTODYCD":"022P002222","AFACCTNO":"0001000004","TLNAME":"USERONLINE","USERNAME":"0001002222","APPLYTIME":"20220908-12:09:00","SYMBOL":"CFPT2202","QUOTEQTTY":"0","QUOTEPRICE":"29.58","EXECTYPE":"NS","EXECQTTY":"0","ORSTATUSVALUE":"3","ORSTATUS":"Hủy do sàn trả về","REMAINQTTY":"0","PRICETYPE":"LO","PRICE":"29.58"}}
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
+client disconnect!
