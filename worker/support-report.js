@@ -1,6 +1,8 @@
 const { parentPort, workerData } = require("worker_threads");
+const mysqlConn = require("./../modules/HedgingModule/mysqlConn");
 
 const iv = require("implied-volatility");
+const fomular = require("./../utils/formula");
 
 const configs = require("./../modules/SupportReportModule/config");
 const supportReportService = require("./../database/SupportReportService");
@@ -8,7 +10,50 @@ const supportReportService = require("./../database/SupportReportService");
 console.log("in woker thread ", workerData.cwList);
 
 const globalHSXList = workerData.hsxList;
-const vn30List = workerData.vn30List;
+const vn30List = workerData.vn30List; // for search underlying symbol of cw
+
+const ivVn30List = workerData.Vn30List; // config for calculate IV
+
+async function storeIvForVn30() {
+    try {
+        const d = configs.INTERVAL;
+        for (const us of ivVn30List) {
+            const days = parseInt(d) + 1;
+            const closePrices = await mysqlConn.getClosePriceSymbol(us, days);
+
+            if (closePrices.status && closePrices.status === "ERROR") {
+                return res.send({
+                    message: closePrices.message,
+                    status: "ERROR"
+                });
+            }
+
+            const closePriceArr =
+                closePrices[0] &&
+                closePrices[0].map((item) => item.adjust_price);
+            console.log(closePrices);
+            console.log("symbol = ", us);
+            if (us == "VIB") {
+                console.log("ddddd");
+            }
+            const iv = fomular.hisIV(closePriceArr);
+
+            // store to db
+            const refDate = new Date();
+            const todayTime = new Date(
+                refDate.getFullYear(),
+                refDate.getMonth(),
+                refDate.getDate(),
+                +0,
+                +0,
+                +0
+            ).getTime();
+            await supportReportService.addSymbolIv(us, days, iv, todayTime);
+        }
+    } catch (e) {
+        console.log(e);
+    }
+}
 
 function getParamsForBs(snapshotOfCw) {
     const maturityDate = snapshotOfCw.maturity_date;
@@ -46,7 +91,7 @@ function getParamsForBs(snapshotOfCw) {
     };
 }
 
-async function storeIv() {
+async function storeCwIv() {
     const refDate = new Date();
     const todayTime = new Date(
         refDate.getFullYear(),
@@ -65,7 +110,7 @@ async function storeIv() {
 
         const iv = calculateIv(expectedCost * n, sForIv, k, t / 365, r);
         // save to db
-        await supportReportService.addSymbolIv(
+        await supportReportService.addCwIv(
             cw,
             expectedCost,
             sForIv,
@@ -160,7 +205,7 @@ parentPort.on("message", async (result) => {
         const { orderType, properties, symbol } = result;
         if (orderType === "PROCESS_CW_IV") {
             console.log("helllo");
-            storeIv();
+            storeCwIv();
         } else if (orderType === "UPDATE_CW") {
             console.log("update cw list in worker thread");
             // update cw list
@@ -169,6 +214,9 @@ parentPort.on("message", async (result) => {
             console.log("update VN30 list in worker thread");
             // update VN30 list
             updateShareList(symbol, properties);
+        } else if (orderType === "PROCESS_VN30_IV") {
+            console.log("helllo");
+            storeIvForVn30();
         }
     } catch (e) {
         console.log(e);

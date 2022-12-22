@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { CWIvSchema } = require("./schema");
+const { CWIvSchema, VN30IVSchema } = require("./schema");
 
 const { MONGO_CONNECTION_STRING } = require("../utils/Constants");
 
@@ -24,7 +24,9 @@ mongoose
     });
 
 const CwIv = mongoose.model("CwIv", CWIvSchema);
+const VN30IV = mongoose.model("VN30IV", VN30IVSchema);
 
 module.exports = {
-    CwIv
+    CwIv,
+    VN30IV
 };

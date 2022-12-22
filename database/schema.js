@@ -15,6 +15,17 @@ const CWIvSchema = new mongoose.Schema({
     today_time: Number
 });
 
+const VN30IVSchema = new mongoose.Schema({
+    symbol: {
+        type: String
+        // unique: true
+    },
+    interval: Number,
+    iv: Number,
+    today_time: Number
+});
+
 module.exports = {
-    CWIvSchema
+    CWIvSchema,
+    VN30IVSchema
 };

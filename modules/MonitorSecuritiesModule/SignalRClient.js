@@ -70,7 +70,8 @@ async function start() {
                             workerData: {
                                 cwList: configVal.CW_LIST,
                                 hsxList: JSON.parse(result).covered_warrant,
-                                vn30List: vn30List
+                                vn30List: vn30List,
+                                Vn30List: configVal.VN30_LIST
                             }
                         });
 
@@ -89,6 +90,10 @@ async function start() {
                             orderType: "PROCESS_CW_IV"
                         });
 
+                        worker.postMessage({
+                            orderType: "PROCESS_VN30_IV"
+                        });
+
                         // const job = schedule.scheduleJob(
                         //     {
                         //         hour: 7,
@@ -96,9 +101,13 @@ async function start() {
                         //         dayOfWeek: [1, 2, 3, 4, 5]
                         //     },
                         //     function () {
-                        //         worker.postMessage({
-                        //             orderType: "PROCESS_CW_IV"
-                        //         });
+                        // worker.postMessage({
+                        //     orderType: "PROCESS_CW_IV"
+                        // });
+
+                        // worker.postMessage({
+                        //     orderType: "PROCESS_VN30_IV"
+                        // });
                         //         console.log("Time for tea!");
                         //     }
                         // );
