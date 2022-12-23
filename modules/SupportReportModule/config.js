@@ -1,4 +1,4 @@
-const CW_LIST = ["CHPG2220", "CHPG2221"];
+const CW_LIST = ["CHPG2220", "CHPG2221", "CHPG2227", "CHPG2228", "CHPG2229", "CHPG2230"];
 
 const VN30_LIST = [
     "ACB",
