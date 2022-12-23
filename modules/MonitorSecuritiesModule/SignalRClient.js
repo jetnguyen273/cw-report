@@ -86,21 +86,6 @@ async function start() {
                             console.log(exitCode);
                         });
 
-                        worker.postMessage({
-                            orderType: "PROCESS_CW_IV"
-                        });
-
-                        worker.postMessage({
-                            orderType: "PROCESS_VN30_IV"
-                        });
-
-                        // const job = schedule.scheduleJob(
-                        //     {
-                        //         hour: 7,
-                        //         minute: [30],
-                        //         dayOfWeek: [1, 2, 3, 4, 5]
-                        //     },
-                        //     function () {
                         // worker.postMessage({
                         //     orderType: "PROCESS_CW_IV"
                         // });
@@ -108,9 +93,24 @@ async function start() {
                         // worker.postMessage({
                         //     orderType: "PROCESS_VN30_IV"
                         // });
-                        //         console.log("Time for tea!");
-                        //     }
-                        // );
+
+                        const job = schedule.scheduleJob(
+                            {
+                                hour: 7,
+                                minute: [30],
+                                dayOfWeek: [1, 2, 3, 4, 5]
+                            },
+                            function () {
+                                worker.postMessage({
+                                    orderType: "PROCESS_CW_IV"
+                                });
+
+                                worker.postMessage({
+                                    orderType: "PROCESS_VN30_IV"
+                                });
+                                console.log("Time for tea!");
+                            }
+                        );
                     })
                     .catch((e) => console.log(e));
             })

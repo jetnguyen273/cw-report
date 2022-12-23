@@ -1,11 +1,13 @@
 const { parentPort, workerData } = require("worker_threads");
 const mysqlConn = require("./../modules/HedgingModule/mysqlConn");
+const mssqlConn = require("./../modules/HedgingModule/mssqlConn");
 
 const iv = require("implied-volatility");
 const fomular = require("./../utils/formula");
 
 const configs = require("./../modules/SupportReportModule/config");
 const supportReportService = require("./../database/SupportReportService");
+// const service = require("./../utils/Service");
 
 console.log("in woker thread ", workerData.cwList);
 
@@ -16,6 +18,11 @@ const ivVn30List = workerData.Vn30List; // config for calculate IV
 
 async function storeIvForVn30() {
     try {
+        // const xxx = await supportReportService.getSymbolIv();
+        // for (const i of xxx) {
+        //     const t = new Date(i.today_time);
+        //     await mssqlConn.insertToMssql(i.symbol, i.iv, t);
+        // }
         const d = configs.INTERVAL;
         for (const us of ivVn30List) {
             const days = parseInt(d) + 1;
@@ -48,6 +55,8 @@ async function storeIvForVn30() {
                 +0,
                 +0
             ).getTime();
+            await mssqlConn.insertToMssql(us, iv, refDate);
+            // await mssqlConn.insertToMssql(us, iv, refDate);
             await supportReportService.addSymbolIv(us, days, iv, todayTime);
         }
     } catch (e) {
@@ -103,6 +112,7 @@ async function storeCwIv() {
     ).getTime();
     for (const cw of configs.CW_LIST) {
         const foundCw = globalHSXList.find((item) => item.symbol == cw);
+        // const foundCw = await service.getDatafeed(cw);
         if (!foundCw) {
             return false;
         }

@@ -386,6 +386,22 @@ function isDiffWithDataFromApi(dataFromApi = [], currentData = []) {
     return isDiff;
 }
 
+async function getDatafeed(cw) {
+    try {
+        const res = await axios.post(
+            `${url}/datafeed/instrument?symbols=${cw}&brief=true`,
+            info,
+            {
+                httpsAgent: agent
+            }
+        );
+        return res.data;
+    } catch (e) {
+        console.log(">>> login error: ", e);
+        return false;
+    }
+}
+
 module.exports = {
     login,
     placeOrder,
@@ -421,5 +437,6 @@ module.exports = {
     minCw,
     minDiff,
     maturityDateCF,
-    mmSubAccount
+    mmSubAccount,
+    getDatafeed
 };

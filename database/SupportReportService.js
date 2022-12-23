@@ -57,7 +57,17 @@ async function addSymbolIv(symbol, interval, iv, today_time) {
     return oo;
 }
 
+async function getSymbolIv() {
+    try {
+        const found = await VN30IV.find();
+        return found;
+    } catch (e) {
+        console.log(e);
+    }
+}
+
 module.exports = {
     addCwIv,
-    addSymbolIv
+    addSymbolIv,
+    getSymbolIv
 };

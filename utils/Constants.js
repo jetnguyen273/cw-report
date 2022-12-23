@@ -55,10 +55,14 @@ const VN30List = [
 ];
 
 const MY_SQL_CONFIG = {
-    host: "192.168.10.37",
-    user: "phs",
-    password: "123456",
-    database: "hedging_uat"
+    // host: "192.168.10.37",
+    // user: "phs",
+    // password: "123456",
+    // database: "hedging_uat"
+    host: "192.168.4.125",
+    user: "administrator",
+    password: "Phuhunguat@2022",
+    database: "hedgingdb"
 };
 
 const MONGO_CONNECTION_STRING = "mongodb://127.0.0.1/usersdbb";
