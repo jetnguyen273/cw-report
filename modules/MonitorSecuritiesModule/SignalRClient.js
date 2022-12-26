@@ -90,27 +90,27 @@ async function start() {
                         //     orderType: "PROCESS_CW_IV"
                         // });
 
-                        // worker.postMessage({
-                        //     orderType: "PROCESS_VN30_IV"
-                        // });
+                        worker.postMessage({
+                            orderType: "PROCESS_VN30_IV"
+                        });
 
-                        const job = schedule.scheduleJob(
-                            {
-                                hour: 7,
-                                minute: [30],
-                                dayOfWeek: [1, 2, 3, 4, 5]
-                            },
-                            function () {
-                                worker.postMessage({
-                                    orderType: "PROCESS_CW_IV"
-                                });
+                        // const job = schedule.scheduleJob(
+                        //     {
+                        //         hour: 7,
+                        //         minute: [30],
+                        //         dayOfWeek: [1, 2, 3, 4, 5]
+                        //     },
+                        //     function () {
+                        //         worker.postMessage({
+                        //             orderType: "PROCESS_CW_IV"
+                        //         });
 
-                                worker.postMessage({
-                                    orderType: "PROCESS_VN30_IV"
-                                });
-                                console.log("Time for tea!");
-                            }
-                        );
+                        //         worker.postMessage({
+                        //             orderType: "PROCESS_VN30_IV"
+                        //         });
+                        //         console.log("Time for tea!");
+                        //     }
+                        // );
                     })
                     .catch((e) => console.log(e));
             })

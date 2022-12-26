@@ -64,6 +64,56 @@ async function storeIvForVn30() {
     }
 }
 
+// for quick insert
+const dayList = [
+    "2022/12/15",
+    "2022/12/16",
+    "2022/12/19",
+    "2022/12/20",
+    "2022/12/21",
+    "2022/12/22",
+    "2022/12/23",
+    "2022/12/26"
+];
+async function storeIvForVn30WithDateFrom() {
+    try {
+        const d = configs.INTERVAL;
+        for (const us of ivVn30List) {
+            const days = parseInt(d) + 1;
+            for (const day of dayList) {
+                const closePrices = await mysqlConn.getClosePriceSymbolFromDate(
+                    us,
+                    days,
+                    day
+                );
+
+                if (closePrices.status && closePrices.status === "ERROR") {
+                    return res.send({
+                        message: closePrices.message,
+                        status: "ERROR"
+                    });
+                }
+
+                const closePriceArr =
+                    closePrices[0] &&
+                    closePrices[0].map((item) => item.adjust_price);
+                console.log(closePrices);
+                console.log("symbol = ", us);
+                if (us == "VIB") {
+                    console.log("ddddd");
+                }
+                const iv = fomular.hisIV(closePriceArr);
+
+                // store to db
+                const refDate = new Date(day);
+                await mssqlConn.insertToMssql(us, iv, refDate);
+            }
+        }
+    } catch (e) {
+        console.log(e);
+    }
+}
+
 function getParamsForBs(snapshotOfCw) {
     const maturityDate = snapshotOfCw.maturity_date;
     if (!maturityDate) {
@@ -226,7 +276,9 @@ parentPort.on("message", async (result) => {
             updateShareList(symbol, properties);
         } else if (orderType === "PROCESS_VN30_IV") {
             console.log("helllo");
-            storeIvForVn30();
+            // storeIvForVn30();
+            // const fromDate = new Date(2022, 11, 16, 0, 0, 0);
+            storeIvForVn30WithDateFrom();
         }
     } catch (e) {
         console.log(e);

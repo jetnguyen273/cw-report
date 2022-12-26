@@ -229,6 +229,31 @@ function getClosePriceSymbol(us, days) {
     });
 }
 
+function getClosePriceSymbolFromDate(us, days, fromDate) {
+    return new Promise((resolve, reject) => {
+        const closePriceSql = `CALL sp_close_price_symbol_by_date_from("${us}", "${days}", "${fromDate}")`;
+        console.log(closePriceSql);
+        connection.query(
+            closePriceSql,
+            true,
+            async (error, closePrices, fields) => {
+                if (error) {
+                    console.error(error.message);
+
+                    reject({
+                        status: "ERROR",
+                        message: error.message
+                            ? error.message
+                            : "Get Close price symbol fail"
+                    });
+                    return;
+                }
+                resolve(closePrices);
+            }
+        );
+    });
+}
+
 module.exports = {
     connection,
     addPreIpoCw,
@@ -236,5 +261,6 @@ module.exports = {
     removePreIpoCwInList,
     updatePreIpoCwInList,
     getActionplan,
-    getClosePriceSymbol
+    getClosePriceSymbol,
+    getClosePriceSymbolFromDate
 };
