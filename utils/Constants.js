@@ -99,8 +99,8 @@ const socketClientInfoForMM = {
     userName: "CTY CP CHUNG KHOAN PHU HUNG"
 };
 
-// const url = "https://uat-stock-api.phs.vn";
-const url = "https://192.168.4.150";
+const url = "https://uat-stock-api.phs.vn";
+// const url = "https://192.168.4.150";
 const query =
     "__sails_io_sdk_version=1.2.1&__sails_io_sdk_platform=browser&__sails_io_sdk_language=javascript&clientid=KRYRTHUYUI&clientsecret=XPLk6emmVVzbEqlaumyPU4b6jjKTuT";
 

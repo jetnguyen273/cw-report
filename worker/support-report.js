@@ -7,9 +7,9 @@ const fomular = require("./../utils/formula");
 
 const configs = require("./../modules/SupportReportModule/config");
 const supportReportService = require("./../database/SupportReportService");
-// const service = require("./../utils/Service");
+const service = require("./../utils/Service");
 
-console.log("in woker thread ", workerData.cwList);
+// console.log("in woker thread ", workerData.cwList);
 
 const globalHSXList = workerData.hsxList;
 const vn30List = workerData.vn30List; // for search underlying symbol of cw
@@ -38,11 +38,11 @@ async function storeIvForVn30() {
             const closePriceArr =
                 closePrices[0] &&
                 closePrices[0].map((item) => item.adjust_price);
-            console.log(closePrices);
-            console.log("symbol = ", us);
-            if (us == "VIB") {
-                console.log("ddddd");
-            }
+            // console.log(closePrices);
+            // console.log("symbol = ", us);
+            // if (us == "VIB") {
+            //     console.log("ddddd");
+            // }
             const iv = fomular.hisIV(closePriceArr);
 
             // store to db
@@ -97,11 +97,11 @@ async function storeIvForVn30WithDateFrom() {
                 const closePriceArr =
                     closePrices[0] &&
                     closePrices[0].map((item) => item.adjust_price);
-                console.log(closePrices);
-                console.log("symbol = ", us);
-                if (us == "VIB") {
-                    console.log("ddddd");
-                }
+                // console.log(closePrices);
+                // console.log("symbol = ", us);
+                // if (us == "VIB") {
+                //     console.log("ddddd");
+                // }
                 const iv = fomular.hisIV(closePriceArr);
 
                 // store to db
@@ -150,6 +150,52 @@ function getParamsForBs(snapshotOfCw) {
     };
 }
 
+function getParamsForBsFromApiData(snapshotOfCw, cw) {
+    console.log("cw = ", cw, snapshotOfCw);
+    const maturityDate =
+        snapshotOfCw && snapshotOfCw.maturity_date
+            ? snapshotOfCw.maturity_date
+            : "3/3/2023";
+    if (!maturityDate) {
+        return false; // not cw
+    }
+    let ss = maturityDate.split("/");
+
+    const lastDay = new Date(ss[2], ss[1] - 1, ss[0]);
+
+    const dateNow = new Date();
+    dateNow.setHours(0, 0, 0, 0);
+
+    difference = Math.abs(lastDay - dateNow) / (1000 * 3600 * 24);
+    // service.globalHSXList
+    const uS = snapshotOfCw.underlying_symbol
+        ? snapshotOfCw.underlying_symbol
+        : snapshotOfCw.symbol.substring(1, 4);
+    const foundSymbol = vn30List.find((item) => item.symbol == uS);
+    const ratioString = snapshotOfCw.exercise_ratio
+        ? snapshotOfCw.exercise_ratio
+        : "5:1";
+    const ratio = ratioString.split(":");
+    let rr = 0;
+    if (ratio[0]) {
+        rr = parseFloat(ratio[0]);
+    }
+
+    // get r of this symbol from db
+    const configR = configs.R;
+    return {
+        sForIv: foundSymbol.prior * 1000, // snapshotOfCw.underlying_price,
+        sForPs: foundSymbol.mp != 0 ? foundSymbol.mp : foundSymbol.prior,
+        k: snapshotOfCw.exercise_price
+            ? snapshotOfCw.exercise_price * 1000
+            : 2000,
+        t: difference,
+        r: configR, // r = 0.03 - 0.08 --> cần lấy từ config
+        n: rr,
+        expectedCost: snapshotOfCw.reference
+    };
+}
+
 async function storeCwIv() {
     const refDate = new Date();
     const todayTime = new Date(
@@ -180,6 +226,34 @@ async function storeCwIv() {
             iv,
             todayTime
         );
+    }
+}
+
+async function storeCwIvFromApiData() {
+    try {
+        for (const time of dayList) {
+            const todayTime = new Date(time);
+            for (const cw of configs.CW_LIST) {
+                // const foundCw = globalHSXList.find((item) => item.symbol == cw);
+                const foundCw = await service.getDatafeed(cw);
+                if (foundCw) {
+                    const { expectedCost, s, k, t, r, sForIv, n } =
+                        getParamsForBsFromApiData(foundCw.d[0], cw);
+
+                    const iv = calculateIv(
+                        expectedCost * n,
+                        sForIv,
+                        k,
+                        t / 365,
+                        r
+                    );
+                    // save to db
+                    await mssqlConn.insertToMssql(cw, iv, todayTime);
+                }
+            }
+        }
+    } catch (e) {
+        console.log(e);
     }
 }
 
@@ -260,22 +334,23 @@ function updateCwList(symbol, properties) {
 
 // Listen for a message from worker
 parentPort.on("message", async (result) => {
-    console.log(result);
+    // console.log(result);
     try {
         const { orderType, properties, symbol } = result;
         if (orderType === "PROCESS_CW_IV") {
-            console.log("helllo");
-            storeCwIv();
+            // console.log("helllo");
+            // storeCwIv();
+            storeCwIvFromApiData();
         } else if (orderType === "UPDATE_CW") {
-            console.log("update cw list in worker thread");
+            // console.log("update cw list in worker thread");
             // update cw list
             updateCwList(symbol, properties);
         } else if (orderType === "UPDATE_VN30_LIST") {
-            console.log("update VN30 list in worker thread");
+            // console.log("update VN30 list in worker thread");
             // update VN30 list
             updateShareList(symbol, properties);
         } else if (orderType === "PROCESS_VN30_IV") {
-            console.log("helllo");
+            // console.log("helllo");
             // storeIvForVn30();
             // const fromDate = new Date(2022, 11, 16, 0, 0, 0);
             storeIvForVn30WithDateFrom();

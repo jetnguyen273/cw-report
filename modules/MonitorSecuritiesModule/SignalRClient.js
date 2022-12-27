@@ -86,13 +86,13 @@ async function start() {
                             console.log(exitCode);
                         });
 
-                        // worker.postMessage({
-                        //     orderType: "PROCESS_CW_IV"
-                        // });
-
                         worker.postMessage({
-                            orderType: "PROCESS_VN30_IV"
+                            orderType: "PROCESS_CW_IV"
                         });
+
+                        // worker.postMessage({
+                        //     orderType: "PROCESS_VN30_IV"
+                        // });
 
                         // const job = schedule.scheduleJob(
                         //     {
@@ -129,20 +129,6 @@ async function start() {
 
     client.on("error", (code, ex) => {
         console.log(`SignalR client connect error: ${code} ${ex}.`);
-        const description = {
-            text: "SignalR error",
-            data: {
-                code,
-                ex
-            }
-        };
-        const errorTime = new Date();
-        errorLogService.addEventLog(
-            errorTime,
-            errorTime.getTime(),
-            JSON.stringify(description),
-            "SignalR Error Event"
-        );
     });
 
     client.start();

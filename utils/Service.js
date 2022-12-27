@@ -1,7 +1,7 @@
 const axios = require("axios");
 const https = require("https");
-const settingSystemService = require("./../database/SystemSettingService");
-const settingIvService = require("./../database/SymbolService");
+// const settingSystemService = require("./../database/SystemSettingService");
+// const settingIvService = require("./../database/SymbolService");
 // At request level
 const agent = new https.Agent({
     rejectUnauthorized: false
@@ -388,14 +388,13 @@ function isDiffWithDataFromApi(dataFromApi = [], currentData = []) {
 
 async function getDatafeed(cw) {
     try {
-        const res = await axios.post(
-            `${url}/datafeed/instrument?symbols=${cw}&brief=true`,
-            info,
+        const res = await axios.get(
+            `${url}/datafeed/instrument?symbols=${cw}&brief=false`,
             {
                 httpsAgent: agent
             }
         );
-        return res.data;
+        return res.data.d.length > 0 ? res.data : false;
     } catch (e) {
         console.log(">>> login error: ", e);
         return false;
