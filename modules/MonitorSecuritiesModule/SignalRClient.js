@@ -6,12 +6,15 @@ const { marketType, VN30List } = require("../../utils/Constants");
 
 const constants = require("../../utils/Constants");
 const configVal = require("./../SupportReportModule/config");
+const mssqlService = require("./../HedgingModule/mssqlConn");
 
 const client = new signalr.client(constants.SIGNAL_R_CONNECTION_STRING, [
     "shareTickerHubProxy"
 ]);
 
 async function start() {
+    const abc = await mssqlService.connect();
+
     console.log("signalR starting ...");
 
     client.on("connected", () => {
@@ -90,9 +93,9 @@ async function start() {
                             orderType: "PROCESS_CW_IV"
                         });
 
-                        // worker.postMessage({
-                        //     orderType: "PROCESS_VN30_IV"
-                        // });
+                        worker.postMessage({
+                            orderType: "PROCESS_VN30_IV"
+                        });
 
                         // const job = schedule.scheduleJob(
                         //     {

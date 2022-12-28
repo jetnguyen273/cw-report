@@ -41,7 +41,7 @@ const VN30_LIST = [
 ];
 const INTERVAL = 60;
 
-const R = 0.0315;
+const R = 0.06;
 
 const TIME_TO_RUN = 7;
 const MINUTE_TO_RUN = 30;
