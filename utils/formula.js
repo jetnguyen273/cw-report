@@ -35,9 +35,7 @@ function hisIV(closePriceArr) {
     // });
 
     let std = math.std(dataStatistic);
-    console.log("std=", std);
     let impliedVolatility = parseFloat(std * Math.sqrt(250));
-    console.log("impliedVolatility=", impliedVolatility);
     return impliedVolatility;
 }
 // let historicalIV = hisIV(closePriceArr);

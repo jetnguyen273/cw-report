@@ -74,7 +74,9 @@ const dayList = [
     "2022-12-21",
     "2022-12-22",
     "2022-12-23",
-    "2022-12-26"
+    "2022-12-26",
+    "2022-12-27",
+    "2022-12-28"
 ];
 async function storeIvForVn30WithDateFrom() {
     try {
@@ -152,52 +154,46 @@ function getParamsForBs(snapshotOfCw) {
     };
 }
 
-function getParamsForBsFromApiData(snapshotOfCw, cw) {
+function getParamsForBsFromApiData(snapshotOfCw, snapshotOfUs, cw, todayTimes) {
     if (!snapshotOfCw) {
         return false;
     }
-    console.log("cw = ", cw, snapshotOfCw);
-    // '20000/10000'  Tue Jan 03 2023 07:00:00 GMT+0700 (Indochina Time) 24000
-    const { EXERCISERATIO, EXERCISEPRICE, MATURITYDATE, CEILINGPRICE, SYMBOL } =
+    console.log("cw = ", snapshotOfCw);
+    console.log("us = ", snapshotOfUs);
+    const { EXERCISERATIO, EXERCISEPRICE, MATURITYDATE, BASICPRICE, SYMBOL } =
         snapshotOfCw;
-    // const maturityDate =
-    //     snapshotOfCw && snapshotOfCw.maturity_date
-    //         ? snapshotOfCw.maturity_date
-    //         : "3/3/2023";
-    // if (!maturityDate) {
-    //     return false; // not cw
-    // }
-    // let ss = maturityDate.split("/");
 
-    // const lastDay = new Date(ss[2], ss[1] - 1, ss[0]);
     const lastDay = new Date(MATURITYDATE);
+    lastDay.setHours(0, 0, 0, 0);
 
-    const dateNow = new Date();
+    const dateNow = new Date(todayTimes);
     dateNow.setHours(0, 0, 0, 0);
 
     difference = Math.abs(lastDay - dateNow) / (1000 * 3600 * 24);
-    // service.globalHSXList
+
     const uS = SYMBOL.substring(1, 4);
+
     const foundSymbol = vn30List.find((item) => item.symbol == uS);
-    // const ratioString = snapshotOfCw.exercise_ratio
-    //     ? snapshotOfCw.exercise_ratio
-    //     : "5:1";
+
     const ratio = EXERCISERATIO.split("/");
-    let rr = 0;
+    let conversionRatio = 0;
     if (ratio[0]) {
-        rr = parseFloat(ratio[0]);
+        conversionRatio = parseFloat(ratio[0]);
     }
 
     // get r of this symbol from db
     const configR = configs.R;
     return {
-        sForIv: foundSymbol.prior * 1000, // snapshotOfCw.underlying_price,
+        sForIv:
+            snapshotOfUs != undefined
+                ? parseFloat(snapshotOfUs[0].adjust_price) * 1000
+                : foundSymbol.prior,
         sForPs: foundSymbol.mp != 0 ? foundSymbol.mp : foundSymbol.prior,
         k: EXERCISEPRICE,
         t: difference,
         r: configR, // r = 0.03 - 0.08 --> cần lấy từ config
-        n: ratio[0] / ratio[1],
-        expectedCost: CEILINGPRICE //snapshotOfCw.reference
+        n: conversionRatio,
+        expectedCost: BASICPRICE //snapshotOfCw.reference
     };
 }
 
@@ -236,16 +232,37 @@ async function storeCwIv() {
 
 async function storeCwIvFromApiData() {
     try {
-        for (const time of dayList) {
-            const todayTime = new Date(time);
+        for (const index in dayList) {
+            const todayTime = new Date(dayList[parseInt(index)]);
+
+            const yesterday =
+                parseInt(index) > 0
+                    ? new Date(dayList[parseInt(index) - 1])
+                    : new Date(dayList[parseInt(index)]);
+            if (parseInt(index) <= 0)
+                yesterday.setDate(yesterday.getDate() - 1);
+
             for (const cw of configs.CW_LIST) {
                 // const foundCw = globalHSXList.find((item) => item.symbol == cw);
                 // const foundCw = await service.getDatafeed(cw);
                 const foundCw = await mssqlConn.getCwSercuritiesInfo(cw);
-                console.log(foundCw.recordset[0]);
+                const foundUS = await mysqlConn.getClosePriceSymbolByDate(
+                    cw.substring(1, 4),
+                    yesterday.getFullYear().toString() +
+                        "/" +
+                        (yesterday.getMonth() + 1) +
+                        "/" +
+                        yesterday.getDate()
+                );
+
                 if (foundCw) {
                     const { expectedCost, s, k, t, r, sForIv, n } =
-                        getParamsForBsFromApiData(foundCw.recordset[0], cw);
+                        getParamsForBsFromApiData(
+                            foundCw.recordset[0],
+                            foundUS[0],
+                            cw,
+                            todayTime
+                        );
 
                     const iv = calculateIv(
                         expectedCost * n,
@@ -254,7 +271,7 @@ async function storeCwIvFromApiData() {
                         t / 365,
                         r
                     );
-                    // save to db
+                    // Store data to db
                     await mssqlConn.insertToMssql(cw, iv, todayTime);
                 }
             }
@@ -296,10 +313,8 @@ function updateShareList(symbol, properties) {
             if (index >= 0) {
                 const parsedData = JSON.parse(properties);
                 for (const property in parsedData) {
-                    // console.log(`${property}: ${parsedData[property]}`);
                     if (`${parsedData[property]}` != "") {
                         vn30List[index][property] = parsedData[property];
-                        // delete parsedData[property];
                     }
                 }
                 return true;
@@ -370,6 +385,7 @@ parentPort.on("message", async (result) => {
 parentPort.on("error", (error) => {
     console.log(error);
 });
+
 parentPort.on("exit", (exitCode) => {
     console.log(exitCode);
 });

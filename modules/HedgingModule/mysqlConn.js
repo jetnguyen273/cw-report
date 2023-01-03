@@ -229,10 +229,33 @@ function getClosePriceSymbol(us, days) {
     });
 }
 
+function getClosePriceSymbolByDate(us, tradingDate) {
+    return new Promise((resolve, reject) => {
+        const closePriceSql = `CALL sp_close_price_by_symdate("${us}", "${tradingDate}")`;
+        connection.query(
+            closePriceSql,
+            true,
+            async (error, closePrices, fields) => {
+                if (error) {
+                    console.error(error.message);
+
+                    reject({
+                        status: "ERROR",
+                        message: error.message
+                            ? error.message
+                            : "Get Close price by symbol fail"
+                    });
+                    return;
+                }
+                resolve(closePrices);
+            }
+        );
+    });
+}
+
 function getClosePriceSymbolFromDate(us, days, fromDate) {
     return new Promise((resolve, reject) => {
         const closePriceSql = `CALL sp_close_price_symbol_by_date_from("${us}", "${days}", "${fromDate}")`;
-        console.log(closePriceSql);
         connection.query(
             closePriceSql,
             true,
@@ -262,5 +285,6 @@ module.exports = {
     updatePreIpoCwInList,
     getActionplan,
     getClosePriceSymbol,
+    getClosePriceSymbolByDate,
     getClosePriceSymbolFromDate
 };
