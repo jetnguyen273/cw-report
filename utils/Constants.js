@@ -55,35 +55,15 @@ const VN30List = [
 ];
 
 const MY_SQL_CONFIG = {
-    // host: "192.168.10.37",
-    // user: "phs",
-    // password: "123456",
-    // database: "hedging_uat"
     host: "192.168.4.125",
     user: "administrator",
     password: "Phuhunguat@2022",
     database: "hedgingdb"
 };
+const MONGO_CONNECTION_STRING =
+    "mongodb://administrator:phuhunguat%402022@192.168.4.125:27017/hedgingdb?authSource=admin";
 
-const MONGO_CONNECTION_STRING = "mongodb://127.0.0.1/usersdbb";
-
-// const SIGNAL_R_CONNECTION_STRING = "http://192.168.4.127/signalr";
-const SIGNAL_R_CONNECTION_STRING = "http://priceboard.phs.vn/signalr";
-
-const defaultLoginInfo = {
-    grant_type: "password",
-    username: "HEDG01",
-    password: "123456",
-    client_id: "KRYRTHUYUI",
-    client_secret: "XPLk6emmVVzbEqlaumyPU4b6jjKTuT"
-};
-const defaultLoginInfoForMM = {
-    grant_type: "password",
-    username: "MMK01",
-    password: "123456",
-    client_id: "KRYRTHUYUI",
-    client_secret: "XPLk6emmVVzbEqlaumyPU4b6jjKTuT"
-};
+const SIGNAL_R_CONNECTION_STRING = "http://192.168.4.127/signalr";
 
 const minimumPriceOfCwToSkipPlaceOrder = 10;
 const minNumberOfCwInAccToSkipPlaceOrder = 100;
