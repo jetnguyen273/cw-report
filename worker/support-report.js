@@ -66,26 +66,28 @@ async function storeIvForVn30() {
 }
 
 // for quick insert
-const dayList = [
-    "2022-12-15",
-    "2022-12-16",
-    "2022-12-19",
-    "2022-12-20",
-    "2022-12-21",
-    "2022-12-22",
-    "2022-12-23",
-    "2022-12-26",
-    "2022-12-27",
-    "2022-12-28",
-    "2022-12-29",
-    "2023-01-03",
-    "2023-01-04",
-    "2023-01-05",
-    "2023-01-06",
-    "2023-01-09",
-    "2023-01-10",
-    "2023-01-11"
-];
+//
+const dayList = ["2023-02-27"];
+
+const dateTradingNowFlex = async (arr) => {
+    try {
+        const arr = [];
+        const dateCurrFlex = await mssqlConn.getCurrentDateFlex();
+        let date = dateCurrFlex.recordset[0].NgayHienTaiFlex;
+        arr.push(date.toISOString("yyyy-MM-dd").substring(0, 10));
+        return arr;
+    } catch (error) {
+        console.log(e);
+    }
+};
+
+async function getDate() {
+    const dateCurrFlex = await mssqlConn.getCurrentDateFlex();
+    let date = dateCurrFlex.recordset[0].NgayHienTaiFlex;
+
+    return [date.toISOString("yyyy-MM-dd").substring(0, 10)];
+}
+
 async function storeIvForVn30WithDateFrom() {
     try {
         const d = configs.INTERVAL;
@@ -109,11 +111,7 @@ async function storeIvForVn30WithDateFrom() {
                 const closePriceArr =
                     closePrices[0] &&
                     closePrices[0].map((item) => item.adjust_price);
-                // console.log(closePrices);
-                // console.log("symbol = ", us);
-                // if (us == "VIB") {
-                //     console.log("ddddd");
-                // }
+
                 const iv = fomular.hisIV(closePriceArr);
 
                 // store to db

@@ -1,37 +1,6 @@
-const CW_LIST = ["CHPG2227", "CHPG2228", "CHPG2229", "CHPG2230"];
+const CW_LIST = ["CHPG2219"];
 
-const VN30_LIST = [
-    "ACB",
-    "BID",
-    "BVH",
-    "CTG",
-    "FPT",
-    "GAS",
-    "GVR",
-    "HDB",
-    "HPG",
-    "KDH",
-    "MBB",
-    "MSN",
-    "MWG",
-    "NVL",
-    "PDR",
-    "PLX",
-    "POW",
-    "SAB",
-    "SSI",
-    "STB",
-    "TCB",
-    "TPB",
-    "VCB",
-    "VHM",
-    // "VIB",
-    "VIC",
-    "VJC",
-    "VNM",
-    "VPB",
-    "VRE"
-];
+const VN30_LIST = ["HPG"];
 const INTERVAL = 60;
 
 const R = 0.06;

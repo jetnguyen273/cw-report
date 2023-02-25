@@ -1,7 +1,7 @@
 const sql = require("mssql");
 const config = {
-    user: "caongoc",
-    password: "Ngoc!@#123",
+    user: "tupham",
+    password: "Tu!@#123",
     server: "192.168.10.108",
     database: "DWH_FLEX",
     stream: false,
@@ -68,6 +68,15 @@ async function getCwSercuritiesInfo(symbol) {
     }
 }
 
+async function getCurrentDateFlex() {
+    try {
+        pool = await connect();
+        return await pool.request().execute("spGetCurrentDateFlex");
+    } catch (err) {
+        console.log(err);
+    }
+}
+
 sql.on("error", (err) => {
     // ... error handler
     console.log(err);
@@ -76,5 +85,6 @@ sql.on("error", (err) => {
 module.exports = {
     connect,
     insertToMssql,
-    getCwSercuritiesInfo
+    getCwSercuritiesInfo,
+    getCurrentDateFlex
 };
