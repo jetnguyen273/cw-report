@@ -50,7 +50,7 @@ async function insertToMssql(symbol, iv, time) {
             .input("ToDate", sql.DateTime, time)
             .input("Symbol", sql.NVarChar(20), symbol)
             .input("IV", sql.Float, iv)
-            .execute("spInsertCW_Daily_IV");
+            .execute("spInsertCW_Daily_IV_UAT");
     } catch (err) {
         console.log(err);
     }
@@ -62,7 +62,7 @@ async function getCwSercuritiesInfo(symbol) {
         return await pool
             .request()
             .input("SYMBOL", sql.VarChar(50), symbol)
-            .execute("spGetCWSecuritiesInfo");
+            .execute("spGetCWSecuritiesInfo_UAT");
     } catch (err) {
         console.log(err);
     }
@@ -71,7 +71,7 @@ async function getCwSercuritiesInfo(symbol) {
 async function getCurrentDateFlex() {
     try {
         pool = await connect();
-        return await pool.request().execute("spGetCurrentDateFlex");
+        return await pool.request().execute("spGetCurrentDateFlex_UAT");
     } catch (err) {
         console.log(err);
     }
