@@ -62,17 +62,67 @@ const MY_SQL_CONFIG = {
 };
 
 const MONGO_CONNECTION_STRING =
-    "mongodb://administrator:phuhung%402022@192.168.10.174:27017/hedgingdb?authSource=admin";
+    "mongodb://administrator:phuhung%402022@192.168.10.174:27017/usersdbb?authSource=admin";
+const defaultLoginInfo = {
+    grant_type: "password",
+    username: "HEDG03",
+    password: "123456",
+    client_id: "KRYRTHUYUI",
+    client_secret: "XPLk6emmVVzbEqlaumyPU4b6jjKTuT"
+};
+const defaultLoginInfoForMM = {
+    grant_type: "password",
+    username: "MMK03",
+    password: "123456",
+    client_id: "KRYRTHUYUI",
+    client_secret: "XPLk6emmVVzbEqlaumyPU4b6jjKTuT"
+};
 
+/*******UAT Priceboard******** */
+//const SIGNAL_R_CONNECTION_STRING = "http://192.168.4.127/signalr";
+
+/*******PRO Priceboard*********/
 const SIGNAL_R_CONNECTION_STRING = "http://192.168.10.170/signalr";
+
+// const defaultLoginInfo = {
+// grant_type: "password",
+// username: "HEDG01",
+// password: "123456",
+// client_id: "KRYRTHUYUI",
+// client_secret: "XPLk6emmVVzbEqlaumyPU4b6jjKTuT"
+// };
+// const defaultLoginInfoForMM = {
+// grant_type: "password",
+// username: "MMK01",
+// password: "123456",
+// client_id: "KRYRTHUYUI",
+// client_secret: "XPLk6emmVVzbEqlaumyPU4b6jjKTuT"
+// };
 
 const minimumPriceOfCwToSkipPlaceOrder = 10;
 const minNumberOfCwInAccToSkipPlaceOrder = 100;
 
-const url = "https://uat-stock-api.phs.vn";
+const clientInfo = {
+    accountId: "022P000113",
+    subAccountId: "0001000007",
+    userName: "CTY CP CHUNG KHOAN PHU HUNG"
+};
+const socketClientInfoForMM = {
+    accountId: "022P000113",
+    subAccountId: "0001000006",
+    userName: "CTY CP CHUNG KHOAN PHU HUNG"
+};
 
+/**********API Pro********/
+const url = "https://192.168.11.59";
+/**********Param login API Pro**********/
 const query =
     "__sails_io_sdk_version=1.2.1&__sails_io_sdk_platform=browser&__sails_io_sdk_language=javascript&clientid=KRYRTHUYUI&clientsecret=XPLk6emmVVzbEqlaumyPU4b6jjKTuT";
+
+/**********API UAT*******/
+//const url = "https://192.168.4.150";
+/**********Param login API UAT*********/
+//const query = "__sails_io_sdk_version=1.2.1&__sails_io_sdk_platform=browser&__sails_io_sdk_language=javascript&clientid=KRYRTHUYUI&clientsecret=XPLk6emmVVzbEqlaumyPU4b6jjKTuT";
 
 const orderStatus = {
     SO_TU_CHOI: "OD_ORSTATUS_0",

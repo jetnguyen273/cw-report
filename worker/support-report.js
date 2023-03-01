@@ -191,7 +191,7 @@ function getParamsForBsFromApiData(snapshotOfCw, snapshotOfUs, cw, todayTimes) {
     const configR = configs.R;
     return {
         sForIv:
-            snapshotOfUs != undefined
+            snapshotOfUs != undefined && snapshotOfUs.length > 0
                 ? parseFloat(snapshotOfUs[0].adjust_price) * 1000
                 : foundSymbol.prior,
         sForPs: foundSymbol.mp != 0 ? foundSymbol.mp : foundSymbol.prior,

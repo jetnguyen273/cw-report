@@ -1,4 +1,4 @@
-const CW_LIST = ["CHPG2219"];
+const CW_LIST = ["CHPG2203"];
 
 const VN30_LIST = ["HPG"];
 const INTERVAL = 60;
