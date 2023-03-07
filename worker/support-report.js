@@ -67,7 +67,7 @@ async function storeIvForVn30() {
 
 // for quick insert
 //
-const dayList = ["2023-02-27"];
+const dayList = ["2023-03-01", "2023-03-02"];
 
 const dateTradingNowFlex = async (arr) => {
     try {
