@@ -67,7 +67,16 @@ async function storeIvForVn30() {
 
 // for quick insert
 //
-const dayList = ["2023-03-01", "2023-03-02"];
+const dayList = [
+    "2023-02-27",
+    "2023-02-28",
+    "2023-03-01",
+    "2023-03-02",
+    "2023-03-03",
+    "2023-03-06",
+    "2023-03-07",
+    "2023-03-08"
+];
 
 const dateTradingNowFlex = async (arr) => {
     try {
@@ -165,7 +174,6 @@ function getParamsForBsFromApiData(snapshotOfCw, snapshotOfUs, cw, todayTimes) {
         return false;
     }
     console.log("cw = ", snapshotOfCw);
-    console.log("us = ", snapshotOfUs);
     const { EXERCISERATIO, EXERCISEPRICE, MATURITYDATE, BASICPRICE, SYMBOL } =
         snapshotOfCw;
 
